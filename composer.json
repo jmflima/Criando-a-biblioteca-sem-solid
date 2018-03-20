@@ -1,0 +1,19 @@
+{
+    "name": "joao/solid",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "authors": [
+    	{
+    		"name": "Joao Lima",
+    		"email": "jmflima@gmail.com"
+    	}
+    ],
+    "require": {},
+    "autoload": {
+      "psr-4": {
+    	"Solid\\Html\\": "src"
+      }
+    }
+}
